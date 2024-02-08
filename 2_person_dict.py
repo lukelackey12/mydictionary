@@ -6,12 +6,22 @@ person["spouse"] = "Edna"
 person["children"] = ["Ralph", "Betty", "Joey"]
 person["pets"] = {"dog": "Fido", "cat": "Sox"}
 
-#print(person)
+print(person)
 
 # print out the name of the second child
 
+list_of_children = person['children']
+print(list_of_children[1])
+
+print(person['children'][1])
 
 # print out the name of the cat
+
+pet_dictionary = person['pets']
+print(type[pet_dictionary])
+print(pet_dictionary['cat'])
+
+print(person['pets']['cat'])
 
 
 
