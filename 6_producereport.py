@@ -207,3 +207,13 @@ ProduceDictionary={
     }
 }
 
+for produce in ProduceDictionary:
+    cost = float(ProduceDictionary[produce]['cost'])
+    amt_sold = float(ProduceDictionary[produce]['amt_sold'])
+    real_total = ProduceDictionary[produce]['total']
+    total = round(cost * amt_sold,2)
+
+    print(f"produce name: {produce}")
+    print(f"Calculated total: ${total}")
+    print(f"Stated total: ${real_total}")
+    print()

@@ -76,7 +76,6 @@ print()
 print()
 print('*****  start section 4 - delete/remove from dictionary ********')
 print()
-
 print(phonebook)
 
 del phonebook['Chris']
